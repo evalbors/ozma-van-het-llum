@@ -4,18 +4,18 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing:border-box;
+  box-sizing: border-box;
 }
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
 
-nav{
-    height: 60px;
-    padding: 0 20px;
-    position: fixed;
-    background-color: rgba(255, 255, 255, 0.5);
-    width: 100%;
+nav {
+  height: 60px;
+  padding: 0 20px;
+  position: fixed;
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 100%;
 }
 
 ul {
@@ -35,11 +35,10 @@ a {
   font-family: "Poppins", "Arial Narrow", Arial, sans-serif;
   color: #777777;
   letter-spacing: 1px;
-  
 }
-a:hover{
-    color: black;
-    transition: ease 1s;
+a:hover {
+  color: black;
+  transition: ease 1s;
 }
 
 h1 {
@@ -63,28 +62,28 @@ p {
 }
 
 .bg-image {
-    display: block;
-    background: #CFF;
-    height:100vh;
-    width: 100%;
-    box-sizing:border-box;
+  height: 100vh;
 }
 
-#index{
-    background-color: khaki;
+#index {
+  background-image: url(../images/image_index.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
 }
-#words{
-    background-color:mediumseagreen;
+#words {
+  background-color: mediumseagreen;
 }
-#paper{
-   background-color: wheat;
+#paper {
+  background-color: wheat;
 }
-#art-direction{
-background-color: cadetblue;
+#art-direction {
+  background-color: cadetblue;
 }
-#house{
-    background-color:cornflowerblue;
+#house {
+  background-color: cornflowerblue;
 }
-#namaste{
-    background-color:darkgray;
+#namaste {
+  background-color: darkgray;
 }
