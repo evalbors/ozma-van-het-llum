@@ -9,24 +9,50 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <header>
-    <nav>
-      <ul>
-        <li><a data-scroll href="#index">ozma van het llum</a></li>
-        <li><a data-scroll href="#words">words</a></li>
-        <li><a data-scroll href="#paper">paper</a></li>
-        <li><a data-scroll href="#art-direction">art direction</a></li>
-        <li><a data-scroll href="#house">house</a></li>
-        <li><a data-scroll href="#namaste">namasté</a></li>
+    <nav >
+      <ul id="menu" >
+        <li><a data-scroll href="#index" class="link active">ozma van het llum</a></li>
+        <li><a data-scroll href="#words" class="link">words</a></li>
+        <li><a data-scroll href="#paper" class="link">paper</a></li>
+        <li><a data-scroll href="#art-direction" class="link">art direction</a></li>
+        <li><a data-scroll href="#house" class="link">house</a></li>
+        <li><a data-scroll href="#namaste" class="link">namasté</a></li>
       </ul>
     </nav>
   </header>
   <body>
-    <section id="index" class="bg-image"></section>
-    <section id="words" class="bg-image"></section>
-    <section id="paper" class="bg-image"></section>
-    <section id="art-direction" class="bg-image"></section>
-    <section id="house" class="bg-image"></section>
-    <section id="namaste" class="bg-image"></section>
-
+    <section id="index" class="parallax">
+      <div class="parallax-layer parallax-back">
+        <div class="container-text">
+          <div class="logo">
+            <h1>ozma</h1>
+            <h1>van het</h1>
+            <h1>llum</h1>
+          </div>
+        </div>
+      </div>
+      <div class="parallax-layer parallax-base">
+        <div class="bg-image-index"></div>
+      </div>
+      <div class="cloud">
+        <h1 class="word">WORDS</h1>
+        <h1 class="word">PAPER</h1>
+        <h1 class="word">ART DIRECTION</h1>
+        <h1 class="word">HOUSE OF NON SENSE</h1>
+        <h1 class="word">NAMASTÉ</h1>
+      </div>
+    </section>
+    <section id="words" class="">
+      <div class="bg-image-words">
+        <div class="text">
+          <h1>words</h1>
+          <p>
+            Linguistic unit, generally endowed with meaning, which is separated
+            from the others by potential breaks in pronunciation and blank
+            spaces in writing.
+          </p>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
